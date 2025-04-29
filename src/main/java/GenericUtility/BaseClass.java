@@ -44,6 +44,7 @@ public class BaseClass {
 	@AfterMethod
 	public void configAM() {
 		driver.quit();
+		System.out.println("hi_commit_1");
 	}
 	
 
