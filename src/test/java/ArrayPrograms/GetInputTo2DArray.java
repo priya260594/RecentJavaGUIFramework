@@ -35,6 +35,7 @@ public class GetInputTo2DArray {
 		int[][] d= {{1,2,4},{5,7,4},{74,83,6}};
 		int[][] e= {{1,2,4},{5,7,4},{74,83,6}};
 		System.out.println(Arrays.deepEquals(d, e));
+		System.out.println();
 
 	}
 
