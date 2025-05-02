@@ -39,7 +39,7 @@ public class SpiceJetProgram {
 		
 		driver.findElement(By.xpath("//div[contains(text(),'Search Flight')]")).click();
 		driver.findElement(By.xpath("//div[@class='css-1dbjc4n r-1awozwy r-18u37iz r-1wtj0ep']/div[contains(text(),'1 Adult')]")).click();
-		driver.findElement(By.xpath("//div[text()='Adult']/parent::div[@class='css-1dbjc4n']/following-sibling::div/div[@data-testid='Adult-testID-plus-one-cta']")).click();)
+		driver.findElement(By.xpath("//div[text()='Adult']/parent::div[@class='css-1dbjc4n']/following-sibling::div/div[@data-testid='Adult-testID-plus-one-cta']")).click();
 		
 
 	}
